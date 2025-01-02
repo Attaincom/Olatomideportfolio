@@ -17,8 +17,8 @@ function Navbar() {
         <nav className="bg-white w-full shadow-sm flex justify-between items-center px-6 py-4 border border-grey rounded-2xl">
           {/* Left Links */}
           <div className="hidden md:flex space-x-6">
-            <a href="#" className="text-black hover:text-gray-600">Home</a>
-            <a href="#" className="text-black hover:text-gray-600">About</a>
+            <a href="https://olatomideportfolio.vercel.app/" className="text-black hover:text-gray-600">Home</a>
+            <a href="/aboutme" className="text-black hover:text-gray-600">About</a>
           </div>
 
           {/* Logo */}
@@ -49,7 +49,7 @@ function Navbar() {
 
           {/* Right Links (Hidden on mobile) */}
           <div className="hidden lg:flex space-x-6 justify-center items-center">
-            <a href="#" className="text-black hover:text-gray-600">Projects</a>
+            <a href="/myprojects" className="text-black hover:text-gray-600">Projects</a>
             <a href="#" className="text-black hover:text-gray-600">Blog</a>
             <a
               href={OlatomideResume}

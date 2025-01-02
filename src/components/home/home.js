@@ -24,7 +24,7 @@ const Home = () => {
       {/* Section 1 */}
       <div className="flex flex-col sm:flex-row justify-center items-center gap-8 mb-8 text-4xl">
         <Card buttonText="Let's Begin!" title="Know Olatomide" emoji="👋" linkTo="/aboutme" />
-        <Card buttonText="See My Best" title="Projects HQ" emoji="📂" />
+        <Card buttonText="See My Best" title="Projects HQ" emoji="📂" linkTo="/myprojects" />
       </div>
 
       {/* Section 2 */}

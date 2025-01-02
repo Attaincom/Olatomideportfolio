@@ -40,19 +40,19 @@ const AboutMe = () => {
         {/* Text Content */}
         <div className="space-y-12">
           <h2 className="text-4xl font-bold mb-4">Hello, I'm Fagbohun Olatomide Samuel.</h2>
-          <p className="text-3xl mb-4">
+          <p className="text-2xl mb-4">
             Well, if you're here, you already know me. You know I don't settle for less; if I do it, I do it right.
           </p>
 
-          <p className="text-3xl mb-4 leading-relaxed">
+          <p className="text-2xl mb-4 leading-relaxed">
             My name is Fagbohun Olatomide Samuel. I'm a Software Developer, WordPress Developer, and Digital Marketer based in Lagos, Nigeria. I specialize in creating functional and visually appealing websites and implementing effective digital marketing strategies. Currently,{' '}
-            <span className="font-semibold text-3xl text-blue-600">
+            <span className="font-semibold text-2xl text-blue-600">
               I’m looking for a role where I can put my skills to good use and work on meaningful projects.
             </span>
           </p>
 
           <h3 className="text-4xl font-semibold mb-2">Lifelong Learner</h3>
-          <p className="text-3xl leading-relaxed">
+          <p className="text-2xl leading-relaxed">
             Alongside my career in tech, I continue to learn and grow, seizing opportunities to improve my skills and create value in my field.
           </p>
 
@@ -60,29 +60,36 @@ const AboutMe = () => {
           <div className="p-8">
             {/* Top Section */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
-              <div className="bg-white p-6 shadow-lg rounded-lg text-center">
+              <div className="bg-white p-8 shadow-2xl rounded-lg text-center hover:shadow-3xl transform hover:scale-105 transition duration-300">
                 <div className="mb-4">
                   <i className="text-3xl">💻</i> {/* Replace with a proper icon */}
                 </div>
-                <h3 className="text-xl font-bold">Stack</h3>
+                <h3 className="text-2xl font-bold">Stack</h3>
                 <p>HTML, CSS, Javascript, React</p>
               </div>
 
-              <div className="bg-white p-6 shadow-lg rounded-lg text-center">
+              <div className="bg-white p-8 shadow-2xl rounded-lg text-center hover:shadow-3xl transform hover:scale-105 transition duration-300">
                 <div className="mb-4">
                   <i className="text-3xl">🎓</i> {/* Replace with a proper icon */}
                 </div>
-                <h3 className="text-xl font-bold">Education</h3>
+                <h3 className="text-2xl font-bold">Education</h3>
                 <p>Microbiology</p>
                 <p>University of Ibadan</p>
               </div>
 
-              <div className="bg-white p-6 shadow-lg rounded-lg text-center">
+              <div className="bg-white p-8 shadow-2xl rounded-lg text-center hover:shadow-3xl transform hover:scale-105 transition duration-300">
                 <div className="mb-4">
                   <i className="text-3xl">📁</i> {/* Replace with a proper icon */}
                 </div>
-                <h3 className="text-xl font-bold">Projects</h3>
-                <p>Click to View All My Projects</p>
+                <h3 className="text-2xl font-bold">Projects</h3>
+                <a 
+                href="/myprojects" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:text-blue-800 underline"
+              >
+                Click to View All My Projects
+              </a>
               </div>
             </div>
 

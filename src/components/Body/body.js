@@ -18,10 +18,10 @@ function Body() {
         <h1 className="text-xl md:text-2xl font-semibold text-gray-800 ">
           Hello, I'm Olatomide Fagbohun
         </h1>
-        <h2 className="text-1xl md:text-3xl font-bold text-brown-500 mt-2">
+        <h2 className="text-1xl md:text-4xl font-bold text-brown-500 mt-2">
           Frontend Developer | WordPress Developer | Digital Marketer
         </h2>
-        <p className="text-gray-600 items-start mt-4">
+        <p className="text-gray-600 text-2xl items-start mt-4">
         I am a skilled Frontend Developer and WordPress Developer, proficient in creating responsive and user-friendly websites using technologies like React.js, HTML, CSS, and JavaScript. With a strong background in Digital Marketing, I implement data-driven strategies to enhance brand visibility and drive conversions. 
         Combining my expertise in development and marketing, I deliver innovative, high-quality solutions that meet client needs and business goals.
         </p>

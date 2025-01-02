@@ -23,7 +23,7 @@ const skills = [
 
 const SkillsSection = () => {
   return (
-    <section className="bg-white py-10">
+    <section className="bg-white w-full py-10">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-3xl font-bold text-brown mb-4">My Skills</h2>
         <p className="text-gray-600 mb-8">
