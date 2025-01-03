@@ -6,7 +6,7 @@ const projects = [
   {
     title: "Design for StudyWithFM",
     description:
-      "PraisennPam is a visa processing and study abroad company that offers expert guidance and seamless support for international education and travel opportunities.",
+      "StudyWithFM is a visa processing and study abroad company that offers expert guidance and seamless support for international education and travel opportunities.",
     techStack: ["WordPress"],
     githubLink: "#", // Replace with the actual link
     websiteLink: "https://drive.google.com/drive/u/2/folders/1mjkqkhYPyXUdDSvyaWczqOaCWfLXzoPj", // Replace with the actual link
