@@ -45,7 +45,7 @@ const AboutMe = () => {
           </p>
 
           <p className="text-2xl mb-4 leading-relaxed">
-            My name is Fagbohun Olatomide Samuel. I'm a Software Developer, WordPress Developer, and Digital Marketer based in Lagos, Nigeria. I specialize in creating functional and visually appealing websites and implementing effective digital marketing strategies. Currently,{' '}
+            My name is Fagbohun Olatomide Samuel. I'm a Software Developer, WordPress Developer, and Digital Marketer based in Abuja, Nigeria. I specialize in creating functional and visually appealing websites and implementing effective digital marketing strategies. Currently,{' '}
             <span className="font-semibold text-2xl text-blue-600">
               I’m looking for a role where I can put my skills to good use and work on meaningful projects.
             </span>
