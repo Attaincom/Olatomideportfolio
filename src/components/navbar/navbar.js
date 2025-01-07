@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import OlatomideResume from "../../images/OlatomideResume.pdf";
 import { FiArrowUpRight } from "react-icons/fi";
-import { FiExternalLink } from 'react-icons/fi';
-
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -25,9 +23,6 @@ function Navbar() {
           <div className="text-lg font-semibold text-black flex items-center">
             Olatomide <span className="bg-brown border-2 border-brown-500 ml-1 text-black">
             <FiArrowUpRight /> </span>
-
-
-
           </div>
 
           {/* Hamburger Icon */}
@@ -64,9 +59,9 @@ function Navbar() {
         {/* Mobile Menu */}
         {isMenuOpen && (
           <div className="lg:hidden bg-white shadow-md mt-4 px-6 py-4 flex flex-col space-y-4">
-            <a href="#" className="text-black hover:text-gray-600">Home</a>
-            <a href="#" className="text-black hover:text-gray-600">About</a>
-            <a href="#" className="text-black hover:text-gray-600">Projects</a>
+            <a href="https://olatomideportfolio.vercel.app/" className="text-black hover:text-gray-600">Home</a>
+            <a href="/aboutme" className="text-black hover:text-gray-600">About</a>
+            <a href="/myprojects" className="text-black hover:text-gray-600">Projects</a>
             <a href="#" className="text-black hover:text-gray-600">Blog</a>
             <a
               href={OlatomideResume}
