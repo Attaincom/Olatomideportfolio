@@ -1,5 +1,6 @@
 import React from "react";
 import PortfolioImage from "../images/Portfolio.png"; // Correctly importing Portfolio image
+import Todo from "../images/Todo.png"
 
 const projects = [
     {
@@ -10,6 +11,15 @@ const projects = [
         githubLink: "https://github.com/Attaincom/Olatomideportfolio", // Replace with the actual link
         websiteLink: "https://olatomideportfolio.vercel.app/", // Replace with the actual link
         image: PortfolioImage, // Use the imported Portfolio image
+      },
+      {
+        title: "TodoList App",
+        description:
+          "The TodoList app is a task management tool that enables users to add, edit, and delete tasks. It provides a user-friendly interface for organizing and tracking daily tasks, enhancing productivity.",
+        techStack: ["React", "Tailwind", "Javascript"],
+        githubLink: "https://github.com/Attaincom/Olatomideportfolio", // Replace with the actual link
+        websiteLink: "https://my-todo-list-app-ow4v.vercel.app/", // Replace with the actual link
+        image: Todo, // Use the imported Portfolio image
       },
 
   
