@@ -1,6 +1,7 @@
 import React from "react";
 import PortfolioImage from "../images/Portfolio.png"; // Correctly importing Portfolio image
 import Todo from "../images/Todo.png"
+import Telemedicine from "../images/Telemedicine.png"
 
 const projects = [
     {
@@ -21,7 +22,15 @@ const projects = [
         websiteLink: "https://my-todo-list-app-ow4v.vercel.app/", // Replace with the actual link
         image: Todo, // Use the imported Portfolio image
       },
-
+      {
+        title: "Telemedicine website",
+        description:
+          "The TodoList app is a task management tool that enables users to add, edit, and delete tasks. It provides a user-friendly interface for organizing and tracking daily tasks, enhancing productivity.",
+        techStack: ["React", "Tailwind", "Javascript"],
+        githubLink: "https://github.com/Attaincom/Telemedicine-Website", // Replace with the actual link
+        websiteLink: "https://telemedicine-website-rosy.vercel.app/", // Replace with the actual link
+        image: Telemedicine, // Use the imported Portfolio image
+      },
   
 ];
 
