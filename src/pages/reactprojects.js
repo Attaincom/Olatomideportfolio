@@ -25,7 +25,7 @@ const projects = [
       {
         title: "Telemedicine website",
         description:
-          "The TodoList app is a task management tool that enables users to add, edit, and delete tasks. It provides a user-friendly interface for organizing and tracking daily tasks, enhancing productivity.",
+          "A telemedicine app is a digital platform that connects patients with healthcare providers for virtual consultations, e-prescriptions, and remote healthcare services. It simplifies access to medical care by offering features like appointment scheduling, secure health records, symptom checkers, and online payment options.",
         techStack: ["React", "Tailwind", "Javascript"],
         githubLink: "https://github.com/Attaincom/Telemedicine-Website", // Replace with the actual link
         websiteLink: "https://telemedicine-website-rosy.vercel.app/", // Replace with the actual link
