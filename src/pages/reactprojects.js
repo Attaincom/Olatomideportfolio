@@ -2,6 +2,7 @@ import React from "react";
 import PortfolioImage from "../images/Portfolio.png"; // Correctly importing Portfolio image
 import Todo from "../images/Todo.png"
 import Telemedicine from "../images/Telemedicine.png"
+import Nft from "../images/nft.png"
 
 const projects = [
     {
@@ -25,11 +26,20 @@ const projects = [
       {
         title: "Telemedicine website",
         description:
-          "A telemedicine app enables patients to access remote healthcare services, including virtual consultations, e-prescriptions, and health record management, all through a secure digital platform.",
+          "Telemedicine app enables patients to access remote healthcare services, including virtual consultations, e-prescriptions, and health record management, all through a secure digital platform.",
         techStack: ["React", "Tailwind", "Javascript"],
         githubLink: "https://github.com/Attaincom/Telemedicine-Website", // Replace with the actual link
         websiteLink: "https://telemedicine-website-rosy.vercel.app/", // Replace with the actual link
         image: Telemedicine, // Use the imported Portfolio image
+      },
+      {
+        title: "NFT Website",
+        description:
+          "NFT website is an online platform that allows users to buy, sell, and showcase digital assets in the form of non-fungible tokens (NFTs), typically leveraging blockchain technology for ownership verification.",
+        techStack: ["React", "Tailwind", "Javascript"],
+        githubLink: "https://github.com/Attaincom/nft-website", // Replace with the actual link
+        websiteLink: "https://nft-website-six-mocha.vercel.app/", // Replace with the actual link
+        image: Nft, // Use the imported Portfolio image
       },
   
 ];
