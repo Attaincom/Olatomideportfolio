@@ -4,15 +4,19 @@ import Body from "./components/Body/body"
 import Home from "./components/home/home"
 import ContactForm from './components/contact/contact'
 import About from './components/about/about'
+import Topbrands from './pages/topbrands'
+
 
 function Portfolio() {
   return (
     <div className="portfolio">
 
       <Body />
+      <Topbrands />
       <Home/>
       <ContactForm />
       <About />
+  
     </div>
   );
 }
