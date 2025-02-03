@@ -1,18 +1,17 @@
 import React from "react";
-import StudyWithFM from "../images/StudyWithFM.jpeg"; // Correctly importing PraisenPam image
-
+import StudyWithFM from "../images/Graphics.jpg"; // Correctly importing StudyWithFM image
 
 const projects = [
   {
-    title: "Design for StudyWithFM",
+    title: "My Designs",
     description:
-      "StudyWithFM is a visa processing and study abroad company that offers expert guidance and seamless support for international education and travel opportunities.",
-    techStack: ["WordPress"],
+      "Explore my collection of graphic designs and marketing materials created for various companies. This portfolio showcases my work with brands like StudyWithFM, SpaceStylist, and MBeduConsult. Check out the link to see how I've crafted visuals that align with each company's unique identity and goals.",
+    techStack: ["CorelDraw", "Canva"],
     githubLink: "#", // Replace with the actual link
-    websiteLink: "https://drive.google.com/drive/u/2/folders/1mjkqkhYPyXUdDSvyaWczqOaCWfLXzoPj", // Replace with the actual link
-    image: StudyWithFM, // Use the imported PraisenPam image
+    websiteLink:
+      "https://drive.google.com/drive/u/2/folders/1mjkqkhYPyXUdDSvyaWczqOaCWfLXzoPj", // Replace with the actual link
+    image: StudyWithFM, // Use the imported StudyWithFM image
   },
-
 ];
 
 const ReactProjects = () => {
