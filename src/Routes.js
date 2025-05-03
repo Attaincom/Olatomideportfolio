@@ -11,6 +11,7 @@ import MyProjects from './pages/myprojects'; // My Projects page
 import ReactProjects from './pages/reactprojects'; // React Projects page
 import WordPress from './pages/wordpress'
 import StudyWithFM from './pages/graphics'
+import MobileApp from './pages/mobile' // Mobile App page/component
 
 const AppRoutes = () => {
   return (
@@ -27,6 +28,8 @@ const AppRoutes = () => {
         <Route path="/reactprojects" element={<ReactProjects />} />
         <Route path="/wordpress" element={<WordPress />} />
         <Route path="/graphics" element={<StudyWithFM />} />
+        <Route path="/mobile" element={<MobileApp />} />
+
       </Routes>
       <Footer />
     </>

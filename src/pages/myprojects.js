@@ -89,6 +89,7 @@ const MyProjects = () => {
       btnBorderColor: "border-white",
       btnHoverBgColor: "hover:bg-white",
       btnHoverTextColor: "hover:text-blue-500",
+      link: "/mobile",
     },
     {
       title: "Motion Graphics & Animation",

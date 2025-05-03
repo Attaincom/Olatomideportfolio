@@ -45,7 +45,7 @@ function Navbar() {
           {/* Right Links (Hidden on mobile) */}
           <div className="hidden lg:flex space-x-6 justify-center items-center">
             <a href="/myprojects" className="text-black hover:text-gray-600">Projects</a>
-            <a href="#" className="text-black hover:text-gray-600">Blog</a>
+            <a href="https://medium.com/@tommyfags" className="text-black hover:text-gray-600">Blog</a>
             <a
               href={OlatomideResume}
               download="OlatomideResume.pdf"
