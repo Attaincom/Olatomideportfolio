@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import OlatomideResume from "../../images/OlatomideResume.pdf";
 import { FiArrowUpRight } from "react-icons/fi";
 
@@ -15,14 +15,23 @@ function Navbar() {
         <nav className="bg-white w-full shadow-sm flex justify-between items-center px-6 py-4 border border-grey rounded-2xl">
           {/* Left Links */}
           <div className="hidden md:flex space-x-6">
-            <a href="https://olatomideportfolio.vercel.app/" className="text-black hover:text-gray-600">Home</a>
-            <a href="/aboutme" className="text-black hover:text-gray-600">About</a>
+            <a
+              href="https://olatomideportfolio.vercel.app/"
+              className="text-black hover:text-gray-600"
+            >
+              Home
+            </a>
+            <a href="/aboutme" className="text-black hover:text-gray-600">
+              About
+            </a>
           </div>
 
           {/* Logo */}
           <div className="text-lg font-semibold text-black flex items-center">
-            Olatomide <span className="bg-brown border-2 border-brown-500 ml-1 text-black">
-            <FiArrowUpRight /> </span>
+            Olatomide{" "}
+            <span className="bg-brown border-2 border-brown-500 ml-1 text-black">
+              <FiArrowUpRight />{" "}
+            </span>
           </div>
 
           {/* Hamburger Icon */}
@@ -44,8 +53,17 @@ function Navbar() {
 
           {/* Right Links (Hidden on mobile) */}
           <div className="hidden lg:flex space-x-6 justify-center items-center">
-            <a href="/myprojects" className="text-black hover:text-gray-600">Projects</a>
-            <a href="https://medium.com/@tommyfags" className="text-black hover:text-gray-600">Blog</a>
+            <a href="/myprojects" className="text-black hover:text-gray-600">
+              Projects
+            </a>
+            <a
+              href="https://medium.com/@tommyfags"
+              className="text-black hover:text-gray-600"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Blog
+            </a>
             <a
               href={OlatomideResume}
               download="OlatomideResume.pdf"
@@ -59,10 +77,21 @@ function Navbar() {
         {/* Mobile Menu */}
         {isMenuOpen && (
           <div className="lg:hidden bg-white shadow-md mt-4 px-6 py-4 flex flex-col space-y-4">
-            <a href="https://olatomideportfolio.vercel.app/" className="text-black hover:text-gray-600">Home</a>
-            <a href="/aboutme" className="text-black hover:text-gray-600">About</a>
-            <a href="/myprojects" className="text-black hover:text-gray-600">Projects</a>
-            <a href="#" className="text-black hover:text-gray-600">Blog</a>
+            <a
+              href="https://olatomideportfolio.vercel.app/"
+              className="text-black hover:text-gray-600"
+            >
+              Home
+            </a>
+            <a href="/aboutme" className="text-black hover:text-gray-600">
+              About
+            </a>
+            <a href="/myprojects" className="text-black hover:text-gray-600">
+              Projects
+            </a>
+            <a href="#" className="text-black hover:text-gray-600">
+              Blog
+            </a>
             <a
               href={OlatomideResume}
               download="Olatomide_Resume.pdf"
