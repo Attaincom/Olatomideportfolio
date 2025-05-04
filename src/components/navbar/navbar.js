@@ -89,7 +89,7 @@ function Navbar() {
             <a href="/myprojects" className="text-black hover:text-gray-600">
               Projects
             </a>
-            <a href="#" className="text-black hover:text-gray-600">
+            <a href="https://medium.com/@tommyfags" className="text-black hover:text-gray-600">
               Blog
             </a>
             <a
