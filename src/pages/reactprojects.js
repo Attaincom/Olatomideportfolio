@@ -9,7 +9,7 @@ const projects = [
         title: "Portfolio",
         description:
           "A showcase of innovative and responsive web solutions built with modern technologies like React and Tailwind, reflecting my passion for crafting exceptional digital experiences",
-        techStack: ["React", "Tailwind"],
+        techStack: ["React", "Tailwind", "Frontend"],
         githubLink: "https://github.com/Attaincom/Olatomideportfolio", // Replace with the actual link
         websiteLink: "https://olatomideportfolio.vercel.app/", // Replace with the actual link
         image: PortfolioImage, // Use the imported Portfolio image
@@ -18,7 +18,7 @@ const projects = [
         title: "TodoList App",
         description:
           "The TodoList app is a task management tool that enables users to add, edit, and delete tasks. It provides a user-friendly interface for organizing and tracking daily tasks, enhancing productivity.",
-        techStack: ["React", "Tailwind", "Javascript"],
+        techStack: ["React", "Tailwind", "Javascript", "Frontend"],
         githubLink: "https://github.com/Attaincom/Olatomideportfolio", // Replace with the actual link
         websiteLink: "https://my-todo-list-app-ow4v.vercel.app/", // Replace with the actual link
         image: Todo, // Use the imported Portfolio image
@@ -27,7 +27,7 @@ const projects = [
         title: "Telemedicine website",
         description:
           "Telemedicine app enables patients to access remote healthcare services, including virtual consultations, e-prescriptions, and health record management, all through a secure digital platform.",
-        techStack: ["React", "Tailwind", "Javascript"],
+        techStack: ["React", "Tailwind", "Javascript", "Frontend"],
         githubLink: "https://github.com/Attaincom/Telemedicine-Website", // Replace with the actual link
         websiteLink: "https://telemedicine-website-rosy.vercel.app/", // Replace with the actual link
         image: Telemedicine, // Use the imported Portfolio image
@@ -36,7 +36,7 @@ const projects = [
         title: "NFT Website",
         description:
           "NFT website is an online platform that allows users to buy, sell, and showcase digital assets in the form of non-fungible tokens (NFTs), typically leveraging blockchain technology for ownership verification.",
-        techStack: ["React", "Tailwind", "Javascript"],
+        techStack: ["React", "Tailwind", "Javascript", "Frontend"],
         githubLink: "https://github.com/Attaincom/nft-website", // Replace with the actual link
         websiteLink: "https://nft-website-six-mocha.vercel.app/", // Replace with the actual link
         image: Nft, // Use the imported Portfolio image

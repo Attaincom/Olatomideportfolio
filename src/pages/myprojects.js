@@ -108,12 +108,7 @@ const MyProjects = () => {
       btnHoverBgColor: "hover:bg-white",
       btnHoverTextColor: "hover:text-blue-500",
     },
-    {
-      title: "Backend Development",
-      description:
-        "I create robust backend systems, ensuring scalability, security, and performance for your applications.",
-      buttonText: "See My Backend Projects →",
-    },
+   
   ];
 
   return (

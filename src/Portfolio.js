@@ -14,8 +14,9 @@ function Portfolio() {
       <Body />
       <Topbrands />
       <Home/>
-      <ContactForm />
+      
       <About />
+      <ContactForm />
   
     </div>
   );
