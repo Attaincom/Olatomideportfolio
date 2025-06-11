@@ -3,6 +3,7 @@ import PortfolioImage from "../images/Portfolio.png"; // Correctly importing Por
 import Todo from "../images/Todo.png"
 import Telemedicine from "../images/Telemedicine.png"
 import Nft from "../images/nft.png"
+import MovieStream from "../images/Movie-Stream.jpg"; // Correctly importing Movie-Stream image
 
 const projects = [
     {
@@ -40,6 +41,15 @@ const projects = [
         githubLink: "https://github.com/Attaincom/nft-website", // Replace with the actual link
         websiteLink: "https://nft-website-six-mocha.vercel.app/", // Replace with the actual link
         image: Nft, // Use the imported Portfolio image
+      },
+      {
+        title: "Movie Stream",
+        description:
+          "Movie Stream is a responsive web application that allows users to explore, search, and watch movie trailers. It features trending movies, genre-based recommendations, and user authentication. Powered by The Movie Database (TMDb) API and a custom backend, it provides a seamless movie discovery experience.",
+        techStack: ["React", "Tailwind", "Javascript", "Fullstack", "Api Integration", ],
+        githubLink: "https://github.com/Attaincom/Movie-stream", // Replace with the actual link
+        websiteLink: "https://movie-stream-ashy.vercel.app/", // Replace with the actual link
+        image: MovieStream, // Use the imported Portfolio image
       },
   
 ];
