@@ -9,12 +9,12 @@ const projects = [
     techStack: ["CorelDraw", "Canva"],
     githubLink: "#", // Replace with the actual link
     websiteLink:
-      "https://drive.google.com/drive/u/2/folders/1mjkqkhYPyXUdDSvyaWczqOaCWfLXzoPj", // Replace with the actual link
+      "https://dribbble.com/Attaincom", // Replace with the actual link
     image: StudyWithFM, // Use the imported StudyWithFM image
   },
 ];
 
-const ReactProjects = () => {
+const GraphicProjects = () => {
   return (
     <div className="py-12 px-6 text-center">
       <h1 className="text-4xl font-bold mb-4">./Websites.</h1>
@@ -68,4 +68,4 @@ const ReactProjects = () => {
   );
 };
 
-export default ReactProjects;
+export default GraphicProjects;
